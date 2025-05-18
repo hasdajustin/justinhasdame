@@ -1,4 +1,4 @@
-This is my first project ( My portfolio Web site ) using react js.
+This is my first project ( My portfolio Web site ) using react js + Bootstrap.
 You can download the code or clone it and customize it to use.
 
 ### `npm start`
