@@ -1,0 +1,57 @@
+.innerMyportfolio img {
+  width: 100%;
+  margin: 5%;
+}
+
+.innerMyportfolio {
+  text-align: left;
+}
+
+.innerMyportfolio .socialID {
+  display: block;
+}
+
+/* Extra Small devices (very small phones, 0px – 350px) */
+@media (max-width: 350px) {
+  .innerMyportfolio img {
+    width: 90% !important;
+    margin: 0%;
+  }
+  .innerMyportfolio h1, h4{
+    text-align: center;
+  }
+  .innerMyportfolio .socialID{
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+/* Small devices (phones, 351px – 599px) */
+@media (min-width: 351px) and (max-width: 599px) {
+  .innerMyportfolio img {
+    width: 6    0% !important;
+    margin: 3%;
+  }
+  .innerMyportfolio h1, h4{
+    text-align: center;
+  }
+  .innerMyportfolio .socialID{
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+/* Medium devices (tablets, 600px – 767px) */
+@media (min-width: 600px) and (max-width: 767px) {
+  .innerMyportfolio {
+    text-align: center;
+  }
+  .innerMyportfolio .socialID {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .innerMyportfolio img {
+    width: 60% !important;
+    margin: 3%;
+  }
+}

@@ -9,19 +9,46 @@ import {
   FaDatabase,
   FaLaptopCode,
 } from 'react-icons/fa';
+import { motion } from 'framer-motion';
+import { Typewriter } from 'react-simple-typewriter';
+import './Home.css';
 
 function Home() {
   return (
-    <>
-      <div className="row align-items-center innerMyportfolio p-5">
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: 'easeOut' }}
+    >
+      <div className="row align-items-center innerMyportfolio px-3">
         {/* Profile Image Column */}
         <div className="col-lg-3 col-md-4 col-sm-12 mb-md-0 profileImage">
           <div className="d-flex justify-content-center">
-            <img src="images/pro.jpg" alt="Matheus Justin Hasda" className="img-fluid rounded" />
+            <img
+              src="images/pro.jpg"
+              alt="Matheus Justin Hasda"
+              className="img-fluid rounded"
+            />
           </div>
+        </div>
 
+        {/* Profile Info Column */}
+        <div className="col-lg-9 col-md-8 col-sm-12 profileInfo">
+          <h1 className="fw-bold">Matheus Justin Hasda</h1>
+          <h4>
+            Web{' '}
+            <Typewriter
+              words={['Designer', 'Developer']}
+              loop={0} // 0 = infinite loop
+              cursor
+              cursorStyle="|"
+              typeSpeed={100}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
+          </h4>
           {/* Social Icons */}
-          <div className="socialID d-flex justify-content-center gap-3 m-3">
+          <div className="socialID d-flex justify-content-start gap-3 mb-3">
             <a
               href="https://github.com/hasdajustin"
               target="_blank"
@@ -47,14 +74,6 @@ function Home() {
               <FaFacebook />
             </a>
           </div>
-        </div>
-
-        {/* Profile Info Column */}
-        <div className="col-lg-9 col-md-8 col-sm-12 profileInfo">
-          <h1 className="fw-bold">Matheus Justin Hasda</h1>
-          <h4>
-            Web <b>Designer</b> &amp; <b>Developer</b>
-          </h4>
           <p>
             <strong>I craft full-stack web solutions with focus on:</strong>
           </p>
@@ -66,7 +85,7 @@ function Home() {
           </ul>
           <a
             href="docs/Cv of Matheus Justin Hasda.pdf"
-            className="btn btn-outline-dark btn-sm"
+            className="btn btn-outline-secondary btn-sm"
             download
           >
             DOWNLOAD RESUME
@@ -75,7 +94,7 @@ function Home() {
       </div>
 
       {/* Services Section */}
-      <Container className="myServices my-5">
+      <Container className="myServices my-4">
         <Row xs={1} md={2} lg={4} className="g-3">
           {/* Frontend Development */}
           <Col>
@@ -151,7 +170,7 @@ function Home() {
           </Col>
         </Row>
       </Container>
-    </>
+    </motion.div>
   );
 }
 
