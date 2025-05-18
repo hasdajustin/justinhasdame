@@ -69,7 +69,7 @@ function Contact() {
                 variant="secondary"
                 type="submit"
                 disabled={status === "Sending..."}
-                className="px-4"
+                className="px-5"
               >
                 {status === "Sending..." ? (
                   <>
