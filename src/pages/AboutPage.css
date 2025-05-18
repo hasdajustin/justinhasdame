@@ -1,0 +1,49 @@
+.skill-card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+}
+
+.skill-html {
+  background-color: #b61b00;
+}
+
+.skill-css {
+  background-color: #001463;
+}
+
+.skill-js {
+  background-color: #fff75b;
+  color: #000;
+}
+
+.skill-jquery {
+  background-color: #27b7ff;
+}
+
+.skill-bootstrap {
+  background-color: #9645ff;
+}
+
+.skill-python {
+  background-color: #00346b;
+}
+
+.skill-django {
+  background-color: #095229;
+}
+
+.skill-postgresql {
+  background-color: #379bff;
+}
+
+.skill-git {
+  background-color: #ff6c40;
+}
+
+.skill-github {
+  background-color: #54595f;
+}
+
