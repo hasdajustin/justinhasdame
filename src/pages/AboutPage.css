@@ -7,43 +7,43 @@
 }
 
 .skill-html {
-  background-color: #b61b00;
+  background-color: rgba(182, 27, 0, .5);
 }
 
 .skill-css {
-  background-color: #001463;
+  background-color: rgba(0, 20, 99, 0.5);
 }
 
 .skill-js {
-  background-color: #fff75b;
+  background-color: rgba(255, 247, 91, 0.5);
   color: #000;
 }
 
 .skill-jquery {
-  background-color: #27b7ff;
+  background-color: rgba(39, 183, 255, 0.5);
 }
 
 .skill-bootstrap {
-  background-color: #9645ff;
+  background-color: rgba(150, 69, 255, 0.5);
 }
 
 .skill-python {
-  background-color: #00346b;
+  background-color: rgba(0, 52, 107, 0.5);
 }
 
 .skill-django {
-  background-color: #095229;
+  background-color: rgba(9, 82, 41, 0.5);
 }
 
 .skill-postgresql {
-  background-color: #379bff;
+  background-color: rgba(55, 155, 255, 0.5);
 }
 
 .skill-git {
-  background-color: #ff6c40;
+  background-color: rgba(255, 108, 64, 0.5);
 }
 
 .skill-github {
-  background-color: #54595f;
+  background-color: rgba(84, 89, 95, 0.5);
 }
 
