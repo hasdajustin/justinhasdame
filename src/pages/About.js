@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
-import './AboutPage.css'; // Make sure this path is correct
+import './AboutPage.css'; 
 
 function AboutPage() {
   const skillMap = {
@@ -20,7 +20,7 @@ function AboutPage() {
     <div className="mainContainer blog">
       <Container className="my-5">
         {/* Profile Section */}
-        <Row className="align-items-center p-5">
+        <Row className="align-items-center p-3">
           <Col lg={3} md={4} sm={12} className="text-center mb-4 mb-md-0">
             <Image src="images/pro.jpg" alt="Profile" rounded fluid />
           </Col>
